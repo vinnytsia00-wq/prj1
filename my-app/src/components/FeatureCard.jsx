@@ -9,7 +9,7 @@ const FeatureCard = ({ title, description, image }) => {
       <div
         className="relative bg-white/5 backdrop-blur-xl border border-white/10 
         group-hover:border-cyan-400/60 transition duration-500
-        flex flex-col items-center text-center px-6 py-10"
+        flex flex-col items-center text-center px-6 py-10 h-[300px]"
         style={{
           clipPath:
             "polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)",
