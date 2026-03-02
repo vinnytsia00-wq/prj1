@@ -1,6 +1,4 @@
-import CareersSection from "./CareersSection";
 import FeatureCard from "./FeatureCard";
-import IdeaCard from "./IdeaCard";
 const Hero = () => {
   return (
     <section
@@ -36,11 +34,11 @@ const Hero = () => {
         </div>
 </div>
       </div>
-        {/* <div className="mt-16 flex flex-row flex-wrap gap-6 mx-auto w-[90vw] justify-center">
-          <FeatureCard title="Zero Latency Philosophy: We build for speed because in tech, as in gaming, milliseconds matter." image="/images/icons/tech.svg"/>
-          <FeatureCard title="Bespoke Architecture: 100% custom-made code. No templates, no technical debt." image="/images/icons/architecture.svg"/>
-          <FeatureCard title="Battle-Tested Scaling: Systems engineered to handle 1M+ concurrent users without breaking a sweat." image="/images/icons/test.svg"/>
-          </div> */}
+        <div className="mt-16 flex flex-row flex-wrap gap-6 mx-auto w-[90vw] justify-center">
+          <FeatureCard title="Zero Latency Philosophy" description="We build for speed because in tech, as in gaming, milliseconds matter." image="/images/icons/tech.svg"/>
+          <FeatureCard title="Bespoke Architecture" description="100% custom-made code. No templates, no technical debt." image="/images/icons/architecture.svg"/>
+          <FeatureCard title="Battle-Tested Scaling" description="Systems engineered to handle 1M+ concurrent users without breaking a sweat." image="/images/icons/test.svg"/>
+          </div>
     </section>
   );
 };
