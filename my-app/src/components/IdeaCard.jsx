@@ -3,7 +3,7 @@ const IdeaCard = () => {
     <div
       className="
         relative
-        w-[420px]
+        max-w-[420px]
         max-w-full
         p-10
         text-white

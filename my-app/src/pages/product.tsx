@@ -60,16 +60,15 @@ const colorMap: any = {
 
 const Product = () => {
   return (
-    <section className="relative bg-[#070b14] text-white py-32 px-6 md:px-16 overflow-hidden">
-
+    <section className="relative bg-[#070b14] text-white py-32 px-6 md:px-16 overflow-hidden bg-no-repeat bg-right-top" style={{ backgroundImage: "url('/images/bg-product.png')" }}>
       {/* Background Effects */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_15%_20%,rgba(0,255,255,0.06),transparent_40%),radial-gradient(circle_at_85%_70%,rgba(168,85,247,0.06),transparent_40%)] pointer-events-none" />
 
-      <div className="relative max-w-7xl mx-auto">
+      <div className="relative max-w-7xl mx-auto " >
 
         {/* Header */}
         <div className="max-w-3xl">
-          <p className="uppercase tracking-[0.3em] text-sm text-gray-500">
+          <p className="uppercase tracking-[0.3em] text-sm text-white">
             Blueprint Gallery
           </p>
 

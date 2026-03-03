@@ -77,8 +77,8 @@ export default function Solutions() {
 
           <div className="relative">
             <div className="absolute -inset-6 bg-cyan-400/20 blur-3xl rounded-[40px]" />
-            <div className="relative bg-white/5 backdrop-blur-xl border border-white/10 p-12 rounded-[40px]">
-              <p className="text-[20px] md:text-[30px] font-semibold leading-relaxed">
+            <div className="relative bg-white/5 backdrop-blur-xl border border-white/10 py-12 px-1  md:p-12 rounded-[40px]">
+              <p className="text-[30px] font-semibold leading-relaxed">
                 “We don’t build software.
                 <br />
                 We build leverage.”

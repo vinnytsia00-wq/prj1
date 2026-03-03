@@ -24,11 +24,11 @@ const Hero = () => {
         </p>
 
         <div className="mt-8 flex flex-col md:flex-row gap-5">
-          <a href="/book-an-appointment" className="uppercase bg-primary px-8 py-3 rounded-full font-semibold hover:scale-105 transition">
+          <a href="/book-an-appointment" className="uppercase bg-primary px-8 py-3 rounded-full font-semibold hover:scale-105 transition text-center">
             INITIALIZE PARTNERSHIP
           </a>
 
-          <a href="/solutions" className="uppercase border border-primary text-primary px-8 py-3 rounded-full hover:bg-primary hover:text-black transition">
+          <a href="/solutions" className="text-center uppercase border border-primary text-primary px-8 py-3 rounded-full hover:bg-primary hover:text-black transition">
             EXPLORE ARCHITECTURE
           </a>
         </div>

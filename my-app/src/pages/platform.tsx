@@ -67,21 +67,17 @@ const Platform = () => {
         {/* Featured Visual */}
         <div className="mt-20 relative max-w-5xl mx-auto">
 
-          <div className="absolute -inset-4 bg-cyan-400/20 blur-3xl rounded-[50px]" />
+          <div className="" />
 
           <div
-            className="relative overflow-hidden border border-cyan-400/40"
-            style={{
-              clipPath:
-                "polygon(8% 0%, 92% 0%, 100% 20%, 100% 80%, 92% 100%, 8% 100%, 0% 80%, 0% 20%)",
-            }}
+            className=""
           >
             <img
-              src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+              src="/images/platform-image.png"
               alt="Platform ecosystem"
-              className="w-full h-[420px] object-cover"
+              className="w-full h-fit object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+            <div className="" />
           </div>
         </div>
 

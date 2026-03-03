@@ -1,25 +1,24 @@
 import FeatureCard from "../components/FeatureCard";
-import IdeaCard from "../components/IdeaCard";
-
 export default function DNA() {
   return (
-    <section className="relative bg-[#070b14] text-white py-32 px-6 md:px-16 overflow-hidden min-h-[95vh]">
+    <section className="relative bg-[#070b14] text-white py-32 px-6 md:px-16 overflow-hidden min-h-[95vh] " 
+    >
 
       {/* Background Glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_15%_25%,rgba(0,255,255,0.08),transparent_40%),radial-gradient(circle_at_85%_75%,rgba(168,85,247,0.08),transparent_40%)] pointer-events-none" />
 
-      <div className="relative max-w-7xl mx-auto">
-
-        <div className="flex flex-col lg:flex-row gap-20 items-start">
+      <div className="relative max-w-8xl mx-auto">
+<div className="flex flex-col bg-right-top bg-no-repeat p-7 rounded-lg" style={{ backgroundImage: "url('/images/bg-about.png')" }}>
+        <div className="flex flex-col lg:flex-row gap-20 items-start justify-around">
 
           {/* LEFT SIDE */}
-          <div className="flex-1 max-w-3xl">
+          <div className="flex-1 max-w-full md:max-w-3xl">
 
-            <p className="uppercase tracking-[0.3em] text-sm text-gray-500 mb-6">
+            <p className="uppercase tracking-[0.3em] text-sm text-white mb-6">
               About Us — The DNA
             </p>
 
-            <h2 className="text-5xl md:text-6xl font-bold leading-tight">
+            <h2 className="text-4xl md:text-6xl font-bold leading-tight">
               BUILT BY MASTERS.
               <br />
               <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
@@ -28,10 +27,7 @@ export default function DNA() {
             </h2>
 
             <p className="mt-10 text-gray-300 text-lg leading-relaxed max-w-2xl">
-              IP Quantum was founded by professional gamers and elite developers
-              who mastered the most complex digital environments on earth.
-              Today, we apply that same win-condition mentality to business
-              technology.
+              IP Quantum was founded by a collective of professional gamers and elite developers. We spent years mastering the most complex, high-stakes digital environments on earth. Today, we bring that same "win-condition" mentality to your business technology.
             </p>
 
             
@@ -39,13 +35,12 @@ export default function DNA() {
           </div>
 
           {/* RIGHT SIDE VISUAL / IDEA CARD */}
-          <div className="flex-1 relative">
+          <div className="relative">
             <div className="absolute -top-10 -right-10 w-72 h-72 bg-cyan-500/10 blur-3xl rounded-full" />
-            <IdeaCard />
-          </div>
+            </div>
 
         </div>
-<div className="mt-16 flex flex-row flex-wrap gap-8">
+<div className="mt-16 flex flex-row flex-wrap gap-8 justify-center">
 
               <FeatureCard
                 title="Precision"
@@ -71,6 +66,7 @@ export default function DNA() {
                 image="/images/icons/execution.svg"
               />
 
+            </div>
             </div>
         {/* Bottom Philosophy Strip */}
         <div className="mt-32 border-t border-white/10 pt-16 grid md:grid-cols-3 gap-12">

@@ -36,7 +36,7 @@ export default function BookAppointment() {
             {/* Glow */}
             <div className="absolute -inset-4 bg-cyan-400/10 blur-3xl rounded-[40px]" />
 
-            <form className="relative bg-white/5 backdrop-blur-2xl border border-white/10 rounded-[40px] p-12 space-y-10">
+            <form className="relative bg-white/5 backdrop-blur-2xl border border-white/10 rounded-[40px] p-5 md:p-12 space-y-10">
 
               {/* Name */}
               <div>
